@@ -73,7 +73,7 @@ A estrutura `StressTestReport` tem os seguintes métodos:
    Executando via imagem docker :
 
     ```shell
-    docker run stress-test ./desafio-stress-test test --url=http://google.com --requests=1000 --concurrency=100
+    docker run stress-test ./main  test --url=http://google.com --requests=200 --concurrency=100
     ```
 
 
